@@ -296,6 +296,8 @@ const dracula_colors: object = {
   }
 }*/
 
+// HACK: tbh this is a remapping of the npm library object so its simply just...
+// usable in a fp manner
 const colors = Object.entries(dracula_colors).map((color) => {
   const key = color[0]
   const value = color[1]
