@@ -21,3 +21,5 @@ Deno.test(function draculaShades() {
     DEFAULT: "#282a36"
   })
 })
+
+// TODO: add a few more use cases for erroneous input
